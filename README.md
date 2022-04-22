@@ -8,4 +8,9 @@ will add soon
 Colin Wegman, a student at Kennesaw State University
 
 # Steps
-will add soon
+1: Get the initial dart game set up
+2: get the scoring system set up
+3: Get the tournament system set up
+4: Link together the dart game and the scoring system
+5: Implement the game and the tournament system
+6: Game complete
