@@ -9,3 +9,11 @@ It asks you how many players are playing, who is playing, and then randomizes 5 
 
 # The Best Part
 The best part about the code posted by totallygeek is that it can be run in any python 3 terminal.
+
+#Steps
+1: Get the initial dart game set up
+2: get the scoring system set up
+3: Get the tournament system set up
+4: Link together the dart game and the scoring system
+5: Implement the game and the tournament system
+6: Game complete
