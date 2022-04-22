@@ -2,7 +2,7 @@
 A dart game with a working tournament/scoring system
 
 # Files
-will add soon
+https://github.com/ksu-is/Dart-Game/blob/main/initial%20dart%20game
 
 # Who is working on this project?
 Colin Wegman, a student at Kennesaw State University
