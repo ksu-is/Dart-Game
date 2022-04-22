@@ -1,0 +1,17 @@
+import random
+
+class Player:
+
+    def __init__(self, name=None, active=True, score=0):
+        self.name = input('Player name: ')
+        self.active = active
+        self.score = score
+
+    def throw(self):
+        scores = [random.randint(1, 100) for _ in range(5)] # five darts
+        score = sum(scores)
+        self.score += score
+        print(f'Player {self.name} threw {scores} totaling {score}')
+
+def still_playing(players):
+    return any(p.active for p in players)  # any players still 'active'?
