@@ -24,3 +24,17 @@ def display_scoreboard(game_round, players):
     for position, player in enumerate(high_scorers, start=1):
         print(f'{position:>3} {player.name:<20} {player.score:>20}')
     print()
+
+players = [Player() for _ in range(int(input('Player count? ')))]
+game_round = 1
+while still_playing(players):
+    low_score = 2 ** 32
+    for index, player in enumerate(players):
+        if player.active:
+            player.throw()
+            if player.score < low_score:
+                low_score = player.score
+                low_index = index
+    display_scoreboard(game_round, players)
+    players[low_index].active = False
+    game_round += 1  # increase game round
